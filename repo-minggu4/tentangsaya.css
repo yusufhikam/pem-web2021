@@ -1,0 +1,134 @@
+* {
+    margin: 0px auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(kamera.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+#wrapper{
+    width: 100%;
+    margin: auto;
+    background-color:RGB(255, 234, 208, 0.8);
+}
+
+#wrapper-topnav {
+    width: 50%;
+    margin: auto;
+    background-color:RGB(222, 184, 135);
+    border-radius: 10px;
+}
+
+#wrapper{
+    width: 100%;
+    margin: auto;
+    background-color:rgba(179, 176, 169, 0.9);
+}
+
+#wrapper-topnav {
+    width: 50%;
+    margin: auto;
+    background-color:rgba(104, 104, 104, 1);
+    border-radius: 10px;
+}
+
+.header {
+    background: transparent;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    padding: 10px 20px;
+    font-size: 62pt;
+    font-family: Glimmer of Light;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:transparent;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #b3b0a9;
+    color: white;
+    border-radius: 4px;
+}
+.contents-title {
+	color: white;
+	text-align: center;
+    padding: 20px;
+}
+
+.contents-title h1{
+	padding: 20px 30px;
+	font-size: 30pt;
+}
+
+.contents-title h2{
+	padding: 0 30px;
+}
+
+.contents-title p{
+	font-size: 16pt;
+	padding: 15px 10px;
+	font-family: arial;
+}
+
+.contents-title iframe{
+    padding: 20px;
+}
+
+.contents-title audio{
+    padding: 10px;
+}
+
+.footer {
+    background-color: #b3b0a9;
+    padding: 40px;
+    color: white;
+    height: 120px;
+}
+
+.bottomnav {
+	padding: 10px 0;
+    text-align: center;
+}
+
+.bottomnav a{
+    float:none;
+    color: black;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomnav a:hover{
+    background-color: #686868;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}

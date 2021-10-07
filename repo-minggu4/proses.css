@@ -1,0 +1,26 @@
+#pemesan {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#pemesan td, #pemesan th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#pemesan tr:nth-child (even) {
+    background-color: #f2f2f2;
+}
+
+#pemesan tr:hover {
+    background-color: #ddd;
+}
+
+#pemesan th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #b3b0a9;
+    color: white;
+}

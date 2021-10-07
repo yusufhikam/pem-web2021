@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>YUSUF HIKAM</title>
+        <link rel="stylesheet" href="styleHubsaya.css">
+    </head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <h1>Yusuf Hikam</h1>
+    </div>
+</div>
+<div id="wrapper-topnav">
+<div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="portofolio.html">Portofolio</a>
+    <a href="tentangsaya.html">Tentang Saya</a>
+    <a href="hubungisaya.html">Pemesanan</a>
+</div>
+</div>
+<div class="main">    
+        <div class="column">
+            <div>
+                <form method="POST" action="proses.php">
+                    <label>Nama</label>
+                    <div><input type="text" name="fnama" placeholder="Nama Anda"></div>
+                    <label>Email</label>
+                    <div><input type="text" name="femail" placeholder="Email Anda"></div>
+                    <label>Alamat</label>
+                    <div><input type="text" name="falamat" placeholder="Alamat Anda"></div>
+                    <label>Pilihan Paket Booking</label>
+                    <select id="info" name="finfo">
+                        <option selected="select">Paket Booking</option>
+                        <option value="standard">Standard</option>
+                        <option value="luxury">Luxury</option>
+                        <option value="delux">Delux</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+</div>
+</body>
+</html>
